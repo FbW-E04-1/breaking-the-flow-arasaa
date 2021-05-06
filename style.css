@@ -1,6 +1,42 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+.hellow-world{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(18, 112, 108);
+    margin: 0 auto;
+    position: relative;
+    right: 5px;
+    top: 7px;
+
+
 }
 
+.box1{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+
+    left: 0px;
+    bottom: 0px;
+
+
+}
+.box2{
+    background-color: rgb(23, 18, 112);
+    color: seashell;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+.box3{
+    background-color: yellowgreen;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    z-index: -1;
+}
